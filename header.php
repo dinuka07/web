@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <div class="nav-container">
+<div class="nav-container">
         <div class="logo-main"> </div>
         <div class="hamburger">
             <div class="line"></div>
@@ -16,7 +17,7 @@
         </div>
         <nav class="nav-bar">
             <ul>
-                <li><a href="" class="active">Home</a></li>
+                <li><a href="home.php" class="active">Home</a></li>
                       
                 <li><a href="" class="">History</a></li>        
            
@@ -28,14 +29,13 @@
 
                 <li><a href="" class="">Tikets</a></li>
 
-                <li><a href="" class="">About</a></li>
+                <li><a href="about.php" class="">About</a></li>
             </ul>
         </nav>
 
     </div>
-    
 
-
+   
     <script>
         hamburger = document.querySelector(".hamburger");
         hamburger = onclick = function() {
@@ -43,6 +43,5 @@
             navBar.classList.toggle("active");
         }
 
-    </script>
-</body>
-</html>
+</script>
+
