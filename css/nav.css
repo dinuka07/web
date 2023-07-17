@@ -1,122 +1,144 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+
+}
+
+a:hover {
+  color: orange;
+}
+
+header {
+  position: relative;
+  padding: 0 2rem;
+  backdrop-filter: blur(15px);
+  position: fixed;
+  width: 100%;
+
+ 
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size:1.5rem ;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toggle_btn {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn {
+  background-color: orange;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+
+}
+
+.action_btn:hover {
+  scale: 1.05;
+  color: #fff;
+} 
+
+.action_btn:active {
+  scale: 0.95;
+}
+
+/*Dropdown menu*/
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.dropdown_menu.open {
+  height: 300px;
+}
+
+.dropdown_menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*Responsive nav*/
+
+@media (max-width: 992px) {
+  .navbar .links,
+  .navbar .action_btn {
+      display: none;  
   }
 
-  
-  .nav-container {
-    width: 100%;
-    height: 60px;
-    background: #11101b;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 100px;
-    position: relative;
-    z-index: 100;
-   
-
-  }
-  
-  .logo-main {
-    
-    border: 1px solid #fff;
-    width: 75px;
-    height: 56px;
-    background: url("https://www.sigiriya.info/wp-content/uploads/2018/12/sigiriya-logo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-  
-  }
-  
-  .hamburger {
-    display: none;
-  }
-  
-  .nav-bar ul {
-    display: flex;
-    
-  }
-  
-  .nav-bar ul li a {
-    display: block;
-    color: #fefefe;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 50px;
-    transition: 0.2s;
-    margin: 0 5px;
-  }
-  
-  .nav-bar ul li a:hover {
-    color: #11101b;
-    background: #fefefe;
-  
-    
-    
-  }
-
-  
-  @media only screen and (max-width: 1320px){
-    .nav-container {
-      padding: 0 50px;
-    }
-  }
-  @media only screen and (max-width: 1100px){
-    .nav-container {
-      padding: 0 30px;
-    }
-  }
-  @media only screen and (max-width: 1100px){
-    .hamburger {
+  .navbar .toggle_btn {
       display: block;
-      cursor: pointer;
-    }
-    .hamburger .line {
-        width: 30px;
-        height: 3px;
-        background: #fefefe;
-        margin: 6px 0;
-    }
-    .nav-bar.active {
-      height: 540px;
-      margin-top: -20px;
-    }
-    .nav-bar {
-      height: 0px;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      background: #11101b;
-      transition: 0.2s;
-      overflow: hidden;
-  
-    }
-    .nav-bar ul {
-      display: block;
-      width: fit-content;
-      margin: 80px auto 0 auto;
-      opacity: 0;
-      transition: 0.5s;
-    }
-    .nav-bar.active ul {
-      opacity: 1;
-    }
-    
-    .nav-bar ul li a {
-      margin-bottom: 12px;
-      color: red;
-    }
-  
   }
-  
-  
-  
+
+  .dropdown_menu {
+      display: block;
+  } 
+
+
+}
+
+@media (max-width: 576px) {
+  .dropdown_menu {
+      left: 2rem;
+      width: unset;
+  }
+}
