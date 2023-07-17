@@ -10,7 +10,7 @@
     include 'nav.php';
   ?>
    
-   
+   This is home
     
 </body>
 </html>

@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+<style>
+ 
+</style>
+
 </head>
 <body>
 
+    
   <?php
     include 'nav.php';
   ?>
-    
+
+  This is about
 
 <div class="card-hero">
 
@@ -31,7 +38,7 @@
     </div>
     <div class="back ">
          <div class="bio-1">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -60,7 +67,7 @@
     </div>
     <div class="back">
          <div class="bio-2">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -87,7 +94,7 @@
     </div>
     <div class="back">
          <div class="bio-3">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -114,7 +121,7 @@
     </div>
     <div class="back">
          <div class="bio-4">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -141,7 +148,7 @@
     </div>
     <div class="back">
          <div class="bio-5">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -168,7 +175,7 @@
     </div>
     <div class="back">
          <div class="bio-6">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -195,7 +202,7 @@
     </div>
     <div class="back">
          <div class="bio-7">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -222,7 +229,7 @@
     </div>
     <div class="back">
          <div class="bio-8">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -249,7 +256,7 @@
     </div>
     <div class="back">
          <div class="bio-9">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -276,7 +283,7 @@
     </div>
     <div class="back">
          <div class="bio-10">
-            <h1 class="job">UI/DIVELOPER</h1>
+            <h1 class="job">UI/DEVELOPER</h1>
             <div class="links">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -288,6 +295,9 @@
 </div>
 
 </div>
+
+
+
 
 </body>
 </html>
