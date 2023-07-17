@@ -13,20 +13,22 @@ li {
 a{
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
 }
 
 a:hover {
   color: orange;
+ 
+  
+  
 }
 
 header {
   position: relative;
   padding: 0 2rem;
   backdrop-filter: blur(15px);
-  position: fixed;
-  width: 100%;
+ 
 
  
 }
@@ -99,7 +101,7 @@ header {
 }
 
 .dropdown_menu.open {
-  height: 300px;
+  height: 330px;
 }
 
 .dropdown_menu li {
