@@ -18,7 +18,7 @@
                 <div class="logo"><a href="">SIGIRIYA</a></div>
     
                 <ul class="links">
-                    <li><a href="home.php">Home</a></li>
+                    <li><a href="home.php" class="abc">Home</a></li>
                     <li><a href="">History</a></li>
                     <li><a href="">Travel</a></li>
                     <li><a href="">Climb</a></li>
