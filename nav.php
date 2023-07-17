@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="about.css">
 </head>
 <body>
 <div class="nav-container">
@@ -44,4 +43,5 @@
         }
 
 </script>
-
+</body>
+</html>
