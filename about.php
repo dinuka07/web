@@ -13,12 +13,12 @@
 </head>
 <body>
 
-    
+<div class="navbar-container">  
   <?php
     include 'nav.php';
   ?>
+</div>
 
-  This is about
 
 <div class="card-hero">
 
@@ -39,7 +39,7 @@
     <div class="back ">
          <div class="bio-1">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -68,7 +68,7 @@
     <div class="back">
          <div class="bio-2">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -95,7 +95,7 @@
     <div class="back">
          <div class="bio-3">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -122,7 +122,7 @@
     <div class="back">
          <div class="bio-4">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -149,7 +149,7 @@
     <div class="back">
          <div class="bio-5">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -176,7 +176,7 @@
     <div class="back">
          <div class="bio-6">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -203,7 +203,7 @@
     <div class="back">
          <div class="bio-7">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -230,7 +230,7 @@
     <div class="back">
          <div class="bio-8">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -257,7 +257,7 @@
     <div class="back">
          <div class="bio-9">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
@@ -284,7 +284,7 @@
     <div class="back">
          <div class="bio-10">
             <h1 class="job">UI/DEVELOPER</h1>
-            <div class="links">
+            <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>

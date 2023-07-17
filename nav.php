@@ -3,43 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
 </head>
 <body>
-<div class="nav-container">
-        <div class="logo-main"> </div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="home.php" class="active">Home</a></li>
-                      
-                <li><a href="" class="">History</a></li>        
-           
-                <li><a href="" class="">Gallery</a></li>          
-            
-                <li><a href="" class=""> Travel</a></li>         
-            
-                <li><a href="" class="">Climb</a></li>
 
-                <li><a href="" class="">Tikets</a></li>
-
-                <li><a href="about.php" class="">About</a></li>
-            </ul>
-        </nav>
-
-    </div>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="">SIGIRIYA</a></div>
+    
+                <ul class="links">
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Climb</a></li>
+                    <li><a href="">Tickets</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+                <a href="about.php" class="action_btn">Contact us</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+    
+            <div class="dropdown_menu">
+               
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Climb</a></li>
+                    <li><a href="">Tickets</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="about.php" class="action_btn">Contact us</a></li>
+            </div>
+        </header>
 
    
+
     <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger = onclick = function() {
-            navBar = document.querySelector(".nav-bar");
-            navBar.classList.toggle("active");
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ?'fa-solid fa-xmark'
+            :'fa-solid fa-bars'
+
+
         }
 
-</script>
+    </script>
