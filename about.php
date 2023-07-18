@@ -43,7 +43,7 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity: 50%;
+        opacity:60%;
         animation:   bigText 6s  infinite;
         
 
@@ -83,10 +83,10 @@
 
         @keyframes bigText {
             50% {
-                opacity: 80%;
+                opacity: 90%;
             }
             100% {
-                opacity: 50%;
+                opacity:60%;
             }
         }
         @keyframes Text {
