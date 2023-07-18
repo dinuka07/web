@@ -28,22 +28,99 @@
         background-size:cover ;
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        
         
         
         
     }
-
+    
     .navbar-container::before {
         content: "";
         width: 100%;
         height: 100%;
         background-color: #000;
         position: absolute;
-        z-index: 0;
+        z-index: -1;
         opacity: 50%;
+        animation:   bigText 6s  infinite;
         
 
     }
+
+    /*Big text */
+
+        .big-text-container {
+            
+            width: 100%;
+            height: 93%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .big-text {
+            
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+       
+        }
+        .big-text > h1 {
+            position: relative;
+            z-index: -1;
+            font-size: 7rem;
+            color: #fff;
+            animation: Text 6s infinite ;
+            
+       
+        }
+
+        @keyframes bigText {
+            50% {
+                opacity: 80%;
+            }
+            100% {
+                opacity: 50%;
+            }
+        }
+        @keyframes Text {
+            50% {
+                scale: 1.02;
+            }
+            100% {
+               
+            }
+        }
+
+
+        @media  only screen and (max-width: 635px) {
+
+            .big-text > h1 {
+            
+            font-size: 4rem;
+            
+       
+        }
+
+        }
+        @media  only screen and (max-width: 376px) {
+
+            .big-text > h1 {
+            
+            font-size: 3.2rem;
+            
+       
+        }
+
+        }
+
+    /*Big text End*/
 
 /* ug-section  */
 
@@ -552,6 +629,13 @@
   <?php
     include 'nav.php';
   ?>
+  
+  <div class="big-text-container">
+    <div class="big-text">
+        <h1>Contact Us</h1>
+    </div>
+  </div>
+
 </div>
 
 <!--ug section-->

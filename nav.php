@@ -9,7 +9,16 @@
 
 
     <link rel="stylesheet" href="css/nav.css">
+<style>
+    .dropdown_menu.open {
+     height: 330px;
+     background: #000;
+     
+     z-index:100;
 
+ 
+}
+</style>
 </head>
 <body>
 
