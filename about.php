@@ -563,7 +563,7 @@
             <div class="ug-blank"></div>
            
             <div class="ug-small-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestias ad voluptates similique unde eum pariatur ex quibusdam accusantium odit? Iusto distinctio explicabo ea a repellendus vitae, eligendi blanditiis nulla voluptas repellat laudantium id nam autem! Rerum consequatur nesciunt atque perferendis natus minus, eveniet, itaque ad ex odit asperiores voluptatem?
+            Sigiriya. This Website is the final outcome of the work of ten undergraduates at NSBM green university under the faculty of computing. We hope that the travellers from all around the world who will visit Sri Lanka will find this useful. Thank you for choosing our website and we will ensure that you will be able to find everything you need here!! Safe travels.
     
             </div>
         </div>
