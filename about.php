@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/about.css">
     
     
@@ -572,10 +573,10 @@
 <!--ug section end-->
 
 <!--Developers cards-->
-<div class="card-hero">
+<div class="card-hero" data-aos="fade-up"   data-aos-delay="80">
 
 <div class="container">
-  <div class="card">
+  <div class="card" >
     <div class="front">
         <div class="pic-main">
             <div class="pic-center"></div>
@@ -850,7 +851,10 @@
 
 <!--Developers cards End-->
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 

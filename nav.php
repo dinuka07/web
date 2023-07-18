@@ -13,7 +13,7 @@
 </head>
 <body>
 
-        <header>
+        <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
                 <div class="logo"><a href="">SIGIRIYA</a></div>
     
