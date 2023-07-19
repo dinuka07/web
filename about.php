@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/about.css">
     
     
@@ -27,22 +28,99 @@
         background-size:cover ;
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        
         
         
         
     }
-
+    
     .navbar-container::before {
         content: "";
         width: 100%;
         height: 100%;
         background-color: #000;
         position: absolute;
-        z-index: 0;
-        opacity: 50%;
+        z-index: -1;
+        opacity:60%;
+        animation:   bigText 6s  infinite;
         
 
     }
+
+    /*Big text */
+
+        .big-text-container {
+            
+            width: 100%;
+            height: 93%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .big-text {
+            
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+       
+        }
+        .big-text > h1 {
+            position: relative;
+            z-index: -1;
+            font-size: 7rem;
+            color: #fff;
+            animation: Text 6s infinite ;
+            
+       
+        }
+
+        @keyframes bigText {
+            50% {
+                opacity: 90%;
+            }
+            100% {
+                opacity:60%;
+            }
+        }
+        @keyframes Text {
+            50% {
+                scale: 1.02;
+            }
+            100% {
+               
+            }
+        }
+
+
+        @media  only screen and (max-width: 635px) {
+
+            .big-text > h1 {
+            
+            font-size: 4rem;
+            
+       
+        }
+
+        }
+        @media  only screen and (max-width: 376px) {
+
+            .big-text > h1 {
+            
+            font-size: 3.2rem;
+            
+       
+        }
+
+        }
+
+    /*Big text End*/
 
 /* ug-section  */
 
@@ -551,6 +629,13 @@
   <?php
     include 'nav.php';
   ?>
+  
+  <div class="big-text-container">
+    <div class="big-text">
+        <h1>Contact Us</h1>
+    </div>
+  </div>
+
 </div>
 
 <!--ug section-->
@@ -563,7 +648,7 @@
             <div class="ug-blank"></div>
            
             <div class="ug-small-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestias ad voluptates similique unde eum pariatur ex quibusdam accusantium odit? Iusto distinctio explicabo ea a repellendus vitae, eligendi blanditiis nulla voluptas repellat laudantium id nam autem! Rerum consequatur nesciunt atque perferendis natus minus, eveniet, itaque ad ex odit asperiores voluptatem?
+            Sigiriya. This Website is the final outcome of the work of ten undergraduates at NSBM green university under the faculty of computing. We hope that the travellers from all around the world who will visit Sri Lanka will find this useful. Thank you for choosing our website and we will ensure that you will be able to find everything you need here!! Safe travels.
     
             </div>
         </div>
@@ -572,10 +657,10 @@
 <!--ug section end-->
 
 <!--Developers cards-->
-<div class="card-hero">
+<div class="card-hero" data-aos="fade-up"   data-aos-delay="80">
 
 <div class="container">
-  <div class="card">
+  <div class="card" >
     <div class="front">
         <div class="pic-main">
             <div class="pic-center"></div>
@@ -850,7 +935,10 @@
 
 <!--Developers cards End-->
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 

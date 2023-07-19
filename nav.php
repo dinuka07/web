@@ -9,11 +9,20 @@
 
 
     <link rel="stylesheet" href="css/nav.css">
+<style>
+    .dropdown_menu.open {
+     height: 330px;
+     background: #000;
+     
+     z-index:100;
 
+ 
+}
+</style>
 </head>
 <body>
 
-        <header>
+        <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
                 <div class="logo"><a href="">SIGIRIYA</a></div>
     
