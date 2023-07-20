@@ -861,7 +861,7 @@
          <div class="bio-1">
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
+                <a href="https://github.com/dinuka07"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
                 
@@ -917,7 +917,7 @@
          <div class="bio-3">
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
+                <a href="https://github.com/NemalFdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
                 <a href=""> <div class="linkedin"></div></a>
             </div>
