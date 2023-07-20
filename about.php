@@ -351,7 +351,7 @@
     .pic-6
     {
         
-        background: url("pic/heshan1.jpg");
+        background: url("pic/heshan2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
        
@@ -374,7 +374,7 @@
     .pic-9
     {
         
-        background: url("pic/imal.jpg");
+        background: url("pic/imal1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -499,7 +499,7 @@
     }
     .bio-6
     {
-        background: url("pic/heshan1.jpg");
+        background: url("pic/heshan2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 20%;
@@ -524,7 +524,7 @@
     }
     .bio-9
     {
-        background: url("pic/imal.jpg");
+        background: url("pic/imal1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 30%;
@@ -859,7 +859,7 @@
     </div>
     <div class="back ">
          <div class="bio-1">
-            <h1 class="job">D E V E L O P E R</h1>
+            <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -888,7 +888,7 @@
     </div>
     <div class="back">
          <div class="bio-2">
-            <h1 class="job">D E V E L O P E R</h1>
+            <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
@@ -915,7 +915,7 @@
     </div>
     <div class="back">
          <div class="bio-3">
-            <h1 class="job">D E V E L O P E R</h1>
+            <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
