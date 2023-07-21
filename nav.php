@@ -21,18 +21,19 @@
 </style>
 </head>
 <body>
+    
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
                 <div class="logo"><a href="">SIGIRIYA</a></div>
     
                 <ul class="links">
-                    <li><a href="home.php" class="abc">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li><a href="">History</a></li>
                     <li><a href="">Travel</a></li>
-                    <li><a href="">Climb</a></li>
                     <li><a href="">Tickets</a></li>
                     <li><a href="">Gallery</a></li>
+                    <li><a href="">About</a></li>
                 </ul>
                 <a href="about.php" class="action_btn">Contact us</a>
                 <div class="toggle_btn">
@@ -45,9 +46,9 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="">History</a></li>
                     <li><a href="">Travel</a></li>
-                    <li><a href="">Climb</a></li>
                     <li><a href="">Tickets</a></li>
                     <li><a href="">Gallery</a></li>
+                    <li><a href="">About</a></li>
                     <li><a href="about.php" class="action_btn">Contact us</a></li>
             </div>
         </header>
