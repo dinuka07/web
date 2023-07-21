@@ -10,23 +10,23 @@
 
     <link rel="stylesheet" href="css/nav.css">
 <style>
-    .dropdown_menu.open {
+    .dropdown_menu.open 
+    {
      height: 330px;
      background: #000;
-     
      z-index:100;
-
+     
  
-}
+    }
 </style>
 </head>
 <body>
-    
+        
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
                 <div class="logo"><a href="">SIGIRIYA</a></div>
-    
+                
                 <ul class="links">
                     <li><a href="home.php">Home</a></li>
                     <li><a href="">History</a></li>
@@ -40,7 +40,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
-    
+            
             <div class="dropdown_menu">
                
                     <li><a href="home.php">Home</a></li>
@@ -51,7 +51,7 @@
                     <li><a href="">About</a></li>
                     <li><a href="about.php" class="action_btn">Contact us</a></li>
             </div>
-        </header>
+            </header>
 
    
 
