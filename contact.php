@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
     
     
 
@@ -886,7 +886,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Sineth Fernando</h1>
+            <h1 class="name">Sineth</h1>
             
         </div>
     </div>
@@ -913,7 +913,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Nemal Fernando</h1>
+            <h1 class="name">Nemal</h1>
             
         </div>
     </div>
@@ -940,7 +940,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Hashen Fernando</h1>
+            <h1 class="name">Hashen</h1>
             
         </div>
     </div>
@@ -967,7 +967,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Rusith Tharindu</h1>
+            <h1 class="name">Rusith</h1>
             
         </div>
     </div>
@@ -994,7 +994,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Heshan Randima</h1>
+            <h1 class="name">Heshan</h1>
             
         </div>
     </div>
@@ -1021,7 +1021,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Naveen Pasindu</h1>
+            <h1 class="name">Naveen</h1>
             
         </div>
     </div>
@@ -1075,7 +1075,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Imal Asanga</h1>
+            <h1 class="name">Imal</h1>
             
         </div>
     </div>
@@ -1102,7 +1102,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Yomasha Jayalath</h1>
+            <h1 class="name">Yomasha</h1>
             
         </div>
     </div>
