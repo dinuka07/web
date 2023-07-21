@@ -29,11 +29,11 @@
                 
                 <ul class="links">
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Travel</a></li>
-                    <li><a href="">Tickets</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="history.php">History</a></li>
+                    <li><a href="travel.php">Travel</a></li>
+                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="about.php">About</a></li>
                 </ul>
                 <a href="contact.php" class="action_btn">Contact us</a>
                 <div class="toggle_btn">
@@ -44,11 +44,11 @@
             <div class="dropdown_menu">
                
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Travel</a></li>
-                    <li><a href="">Tickets</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="history.php">History</a></li>
+                    <li><a href="travel.php">Travel</a></li>
+                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="contact.php" class="action_btn">Contact us</a></li>
             </div>
             </header>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/contact.css">
     
@@ -76,10 +76,43 @@
             z-index: -1;
             font-size: 7rem;
             color: #fff;
+            letter-spacing: 10px;
+            overflow: hidden;
             animation: Text 6s infinite ;
             
        
         }
+
+        .big-text > h1::before {
+            
+            content: '';
+            width: 0%;
+            height: 100%;   
+            
+            background:black;
+            position: absolute;
+            z-index: -1;
+            animation: text-animation 2s ;
+            
+       }
+
+       @keyframes text-animation {
+           0% {
+              
+               width: 0%;
+           }
+
+           50% {
+               margin-left: 0%;
+               width: 100%;
+           }
+        
+           100% {
+               margin-left:100% ;
+               width: 100%;
+               
+           }
+       }
 
         @keyframes bigText {
             50% {
@@ -820,7 +853,7 @@
   
   <div class="big-text-container">
     <div class="big-text">
-        <h1>Contact Us</h1>
+        <h1>Contact</h1>
     </div>
   </div>
 
