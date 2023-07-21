@@ -35,7 +35,7 @@
                     <li><a href="">Gallery</a></li>
                     <li><a href="">About</a></li>
                 </ul>
-                <a href="about.php" class="action_btn">Contact us</a>
+                <a href="contact.php" class="action_btn">Contact us</a>
                 <div class="toggle_btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -49,7 +49,7 @@
                     <li><a href="">Tickets</a></li>
                     <li><a href="">Gallery</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="about.php" class="action_btn">Contact us</a></li>
+                    <li><a href="contact.php" class="action_btn">Contact us</a></li>
             </div>
             </header>
 
