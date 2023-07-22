@@ -395,7 +395,7 @@ header .navigation .navigation-items a:hover::before{
     border-color: rgba(255,255,255,.6);
   }
   
-  /* Begin Media Queries*/
+  
   @media screen and (max-width: 850px) {
     .contact-wrapper {
       display: flex;
@@ -473,4 +473,31 @@ header .navigation .navigation-items a:hover::before{
     object-fit: cover;
     
     
+}
+@media (max-width: 1040px){
+  header{
+      padding: 12px 20px;
+  }
+  section{
+      padding: 100px 20px;
+  }
+  .home .media-icons{
+      right: 15px;
+  }
+  .home .video{
+      right: 15px;
+  }
+  header .navigation{
+      
+      display: none;
+  }
+  .menu-btn{
+      background: url(menu.png)no-repeat;
+      background-size: 30px;
+      background-position: center;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      transition: 0.3s ease;
+  }
 }
