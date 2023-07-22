@@ -3,190 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>contact</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 
-<style>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
 
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "poppins";
-    }
-
-    .navbar-container {
-
-        height: 100vh;
-        background: #000;
-        background-image: url('https://www.traxplorio.com/wp-content/uploads/2021/11/2021-11-08_6188cd6b8a608_Sigiriya.jpg');
-        background-size:cover ;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        z-index: 0;
-        
-        
-        
-        
-    }
-
-    .navbar-container::before {
-        content: "";
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        position: absolute;
-        z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
-        
-
-    }
-
-    /*Big text */
-
-        .big-text-container {
-            
-            width: 100%;
-            height: 93%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .big-text {
-            
-            width: 100%;
-            height: 200px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-    
-        }
-        .big-text > h1 {
-            position: relative;
-            z-index: -1;
-            font-size: 7rem;
-            color: #fff;
-            letter-spacing: 10px;
-            overflow: hidden;
-            animation: Text 6s infinite ;
-            
-    
-        }
-
-        .big-text > h1::before {
-            
-            content: '';
-            width: 0%;
-            height: 100%;   
-            
-            background:black;
-            position: absolute;
-            z-index: -1;
-            animation: text-animation 2s ;
-            
-       }
-
-       @keyframes text-animation {
-           0% {
-              
-               width: 0%;
-           }
-
-           50% {
-               margin-left: 0%;
-               width: 100%;
-           }
-        
-           100% {
-               margin-left:100% ;
-               width: 100%;
-               
-           }
-       }
-
-     
-
-        @keyframes bigText {
-            50% {
-                opacity: 80%;
-            }
-            100% {
-                opacity:40%;
-            }
-        }
-        @keyframes Text {
-            50% {
-                scale: 1.02;
-            }
-            100% {
-            
-            }
-        }
-
-
-        @media  only screen and (max-width: 635px) {
-
-            .big-text > h1 {
-            
-            font-size: 4rem;
-            
-    
-        }
-
-        }
-        @media  only screen and (max-width: 376px) {
-
-            .big-text > h1 {
-            
-            font-size: 3.2rem;
-            
-    
-        }
-
-        }
-
-    /*Big text End*/
-
-</style>
-
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 </head>
 <body>
-
-<!--About big-->
-
-<div class="navbar-container">  
-  <?php
-    include 'nav.php';
-  ?>
+    <section id="contact">
+        <div>
+            <header data-aos="fade-down" data-aos-delay="70">
+                <div class="navbar">
+                    <div class="logo"><a href="">SIGIRIYA</a></div>
+        
+                    <ul class="links">
+                        <li><a href="home.php" class="abc">Home</a></li>
+                        <li><a href="">History</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="">Tickets</a></li>
+                        <li><a href="">Gallery</a></li>
+                    </ul>
+                    <a href="about.php" class="action_btn">Contact us</a>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        
+                <div class="dropdown_menu">
+                   
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="">History</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="">Tickets</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="about.php" class="action_btn">Contact us</a></li>
+                </div>
+            </header>
+        </div>
+        
   
-  <div class="big-text-container">
-    <div class="big-text">
-        <h1>About</h1>
-    </div>
-  </div>
-
-</div>
-<!--About big End-->
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>  
+        <h1 class="section-header" style="margin-top: 140px; letter-spacing: 1px; color: aliceblue; font-family:Arial, Helvetica, sans-serif ; font-weight: bold; font-style: inherit;"><span class="qqq"></span></h1>
+        <br>
+        <video class="video-slide" src="sigiriya_web_3.mp4" autoplay muted loop style="opacity: 0.7; background: black;"></video></div>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form" >
+            
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required style="border-radius: 5px; height: 30px; backdrop-filter: blur(10px); background: black; opacity: 0.5;box-shadow: 5px 5px 18px 3px black ;">
+              </div>
+            </div>
+            <br>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required style="border-radius: 5px; height: 30px;backdrop-filter: blur(10px); background: black; opacity: 0.5;box-shadow: 5px 5px 18px 3px black ;">
+              </div>
+            </div>
+            <br>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required style="border-radius: 5px; backdrop-filter: blur(10px); background: black; opacity: 0.5; box-shadow: 5px 5px 18px 3px black ;"></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" style="border-radius: 5px; backdrop-filter: blur(10px); background: black; opacity: 0.6;box-shadow: 5px 5px 18px 3px black ;" >
+              <div class="alt-send-button" style="color:white">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item" ><i  style="opacity: 0.8;" class="fa-solid fa-location-dot fa-2x"></i><span class="contact-text place">Sigiriya</span></i></li>
+                
+                <li class="list-item"><i style="opacity: 0.8;"class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:+94 703543579" title="Give me a call">+94 703543579</a></span></i></li>
+                
+                <li class="list-item"><i style="opacity: 0.8;"class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="dinuka.n@techscrolll.com" title="Send me an email">dinuka.n@techscrolll.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list" >
+                <li style="box-shadow: 2px 2px 40px 1px black ;opacity: 0.9;"><a href="https://web.facebook.com/dinuka.nanayakkara.5" target="_blank" class="contact-icon">
+                  <i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                </li>
+                <li style="box-shadow: 2px 2px 40px 1px black ;opacity: 0.9;"><a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="contact-icon">
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li style="box-shadow: 2px 2px 40px 1px black ;opacity: 0.9;"><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li style="box-shadow: 2px 2px 40px 1px black ; opacity: 0.9;"><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div style="color: aliceblue; opacity: 0.3;" class="copyright">Dinuka Nanayakkara <br>&copy; ALL OF THE RIGHTS RESERVED </div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
+      <script>
+         var typingEffect = new Typed(".qqq",{
+          strings : ["Contact Us."],
+          loop : true,
+          typeSpeed : 400,
+         
+          startDelay : 1000,
+          backDelay : 30000
+         })
+         
+      </script>
+        
+        
 </body>
 </html>
