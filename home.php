@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
    
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 
@@ -29,13 +29,13 @@
     
                 <ul class="links">
                     <li><a href="home.php" class="abc">Home</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Travel</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="">Tickets</a></li>
-                    <li><a href="">Gallery</a></li>
+                    <li><a href="history.php">History</a></li>
+                    <li><a href="travel.php">Travel</a></li>
+                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
-                <a href="about.php" class="action_btn">Contact us</a>
+                <a href="about.php" class="action_btn">About us</a>
                 <div class="toggle_btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -44,12 +44,12 @@
             <div class="dropdown_menu">
                
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Travel</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="">Tickets</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="about.php" class="action_btn">Contact us</a></li>
+                    <li><a href="history.php">History</a></li>
+                    <li><a href="travel.php">Travel</a></li>
+                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.php" class="action_btn">About us</a></li>
             </div>
         </header>
     </div>
