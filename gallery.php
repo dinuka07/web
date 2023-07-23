@@ -38,13 +38,14 @@
     }
 
     .gallery-hero{
-        border: 0;
+        
         width: 90%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         box-sizing: border-box;
+        padding: -30px;
     }
 
     .gallery-hero .item-1,
@@ -63,7 +64,7 @@
         border: 0;
         width: 500px;
         height: 300px;
-        margin: 5px;
+        margin: 7px;
         opacity: 70%;
         transition: .4s;
     }
