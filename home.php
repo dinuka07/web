@@ -33,7 +33,7 @@
                     <li><a href="travel.php">Travel</a></li>
                     <li><a href="tickets.php">Tickets</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="feedback.php">Feedback</a></li>
                 </ul>
                 <a href="about.php" class="action_btn">About us</a>
                 <div class="toggle_btn">
@@ -48,7 +48,7 @@
                     <li><a href="travel.php">Travel</a></li>
                     <li><a href="tickets.php">Tickets</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="feedback.php">Feedback</a></li>
                     <li><a href="about.php" class="action_btn">About us</a></li>
             </div>
         </header>

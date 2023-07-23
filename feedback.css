@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.comment-container {
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size:cover ;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.comment-input {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: center;
+   
+    
+   
+
+}
+
+.comment-input > .comment-form {
+    
+    width: 500px;
+    height: 600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+
+    
+}
+
+.comment-form > h1 {
+    color: #fff;
+    font-size: 40px;
+}
+.comment-form > .name {
+    width: 80%;
+    height: 50px;
+    padding-left:10px ;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+}
+.comment-form > .message {
+    width: 80%;
+    height: 300px;
+    padding-left:10px ;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+    
+}
+.comment-form > .btn {
+    border: 2px solid;
+    width: 40%;
+    height: 50px;
+    background: #277c98;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.comment-form > .btn:hover {
+    background: #113b48;
+    transition: 0.4s;
+    width: 35%;
+   
+
+}
+
+.comment-form > .name:hover,
+.comment-form > .message:hover {
+    border:2px solid #33bad2 ;
+   
+
+}
+
+
+.comment-content {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-content {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+
+}
+        .user-text {
+        
+        width: 60%;
+        height: 100%;
+        }
+
+
+        .user-pic {
+            border: 1px solid;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+            background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }  
+
+        .user-text > p {
+            margin-left: 20px;
+        }
