@@ -16,81 +16,87 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 
+
+
+
 </head>
 <body>
     
-   
-   
-    <section id="#" class="home">
+  
+
+       
+        <section id="#" class="home">
+            <div>
+            <header data-aos="fade-down" data-aos-delay="70">
+                <div class="navbar">
+                    <div class="logo"><a href="">SIGIRIYA</a></div>
+        
+                    <ul class="links">
+                        <li><a href="home.php" class="abc">Home</a></li>
+                        <li><a href="history.php">History</a></li>
+                        <li><a href="travel.php">Travel</a></li>
+                        <li><a href="tickets.php">Tickets</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="feedback.php">Feedback</a></li>
+                    </ul>
+                    <a href="about.php" class="action_btn">About us</a>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        
+                <div class="dropdown_menu">
+                   
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="history.php">History</a></li>
+                        <li><a href="travel.php">Travel</a></li>
+                        <li><a href="tickets.php">Tickets</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="feedback.php">Feedback</a></li>
+                        <li><a href="about.php" class="action_btn">About us</a></li>
+                </div>
+            </header>
+        </div>
         <div>
-        <header data-aos="fade-down" data-aos-delay="70">
-            <div class="navbar">
-                <div class="logo"><a href="">SIGIRIYA</a></div>
-    
-                <ul class="links">
-                    <li><a href="home.php" class="abc">Home</a></li>
-                    <li><a href="history.php">History</a></li>
-                    <li><a href="travel.php">Travel</a></li>
-                    <li><a href="tickets.php">Tickets</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="feedback.php">Feedback</a></li>
-                </ul>
-                <a href="about.php" class="action_btn">About us</a>
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
-    
-            <div class="dropdown_menu">
+            <video class="video-slide" src="sigiriya_web_3.mp4" autoplay muted loop style="opacity: 0.7;"></video></div>
+            
+            <div class="content">
                
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="history.php">History</a></li>
-                    <li><a href="travel.php">Travel</a></li>
-                    <li><a href="tickets.php">Tickets</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="feedback.php">Feedback</a></li>
-                    <li><a href="about.php" class="action_btn">About us</a></li>
-            </div>
-        </header>
-    </div>
-    <div>
-        <video class="video-slide" src="sigiriya_web_3.mp4" autoplay muted loop style="opacity: 0.7;"></video></div>
+                <div class="row">
+                    <div class="col">
+                        <h2> Welcome to</h2>
+                        
+                        <h1><span class="input" ></span></h1>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <p style="margin-top: 50px; line-height: 22px; font-family: cursive;">"Sigiriya Rock: Unveiling the Majestic Marvels of Ancient Sri Lanka, Where the Echoes of History Resonate and Nature's Splendor Ascends to the Heavens, Inviting You to a Journey of Vertical Legacy and Enchanted Serenity."</p>
+                   
+                        <a class="explore" href=""  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  >  Explore  </a>
+                        
         
-        <div class="content">
+                    </div>
+                    
+                </div>
            
-            <div class="row">
-                <div class="col">
-                    <h2 style="font-size: 50px; font-family: cursive; margin-bottom: 20PX;" > Welcome to</h2>
-                    
-                    <h1 style="font-family: cursive;  font-size: 100px ; line-height: 100px;"><span class="input" ></span></h1>
-                    
-                
-                   
-                   
-                    
-                    
-                    <p style="margin-top: 50px; line-height: 22px; font-family: cursive;">"Sigiriya Rock: Unveiling the Majestic Marvels of Ancient Sri Lanka, Where the Echoes of History Resonate and Nature's Splendor Ascends to the Heavens, Inviting You to a Journey of Vertical Legacy and Enchanted Serenity."</p>
-               
-               <a class="explore" href=""  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  >  Explore  </a>
-               
-    
-                </div>
-                
             </div>
-       
-        </div>
-       
-        
-        <div class="media-icons">
-            <a href="https://web.facebook.com/dinuka.nanayakkara.5" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-			
-			<a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
-		
-			
-			<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-       
-    </section>
+            
+           
+            
+            <div class="media-icons">
+                <a href="https://web.facebook.com/dinuka.nanayakkara.5" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                <a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+            
+                
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+           
+        </section>
+   
     
     <script type="text/javascript">
         const menuBtn = document.querySelector("menu-btn");
@@ -135,7 +141,7 @@
         var typingEffect = new Typed(".input",{
          strings : ["Sigiriya."],
          loop : true,
-         typeSpeed : 400,
+         typeSpeed : 350,
          backSpeed : 200,
          startDelay : 1000,
          backDelay : 30000
