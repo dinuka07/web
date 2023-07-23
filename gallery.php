@@ -10,7 +10,8 @@
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
     .gallery{
-        margin-bottom: 100px;
+        margin-bottom: -100px;
+        padding-bottom: 100px;
         margin-top: -10px;
         box-sizing: border-box;
         font-family: "Poppins";
@@ -64,6 +65,7 @@
         height: 300px;
         margin: 5px;
         opacity: 70%;
+        transition: .4s;
     }
 
     .gallery-hero .item-1:hover,
