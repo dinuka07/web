@@ -42,13 +42,14 @@
     padding: 0 2rem;
     backdrop-filter: blur(15px);
     
+    
 
     
     }
 
     .navbar {
     width: 100%;
-    height: 60px;
+    height: 80px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -176,7 +177,7 @@
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
-                <div class="logo"><a href="">SIGIRIYA</a></div>
+                <div class="logo"><a href="home.php">SIGIRIYA</a></div>
                 
                 <ul class="links">
                     <li><a href="home.php">Home</a></li>
