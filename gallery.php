@@ -62,8 +62,8 @@
     .gallery-hero .item-12
     {
         border: 0;
-        width: 500px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         margin: 7px;
         opacity: 70%;
         transition: .4s;
