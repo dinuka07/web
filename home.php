@@ -15,8 +15,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-    <script src="https://cdn.tailwindcss.com"></script>
-    
 
 
 
@@ -34,7 +32,7 @@
                     <div class="logo"><a href="">SIGIRIYA</a></div>
         
                     <ul class="links">
-                        <li ><a href="home.php" class="abc">Home</a></li>
+                        <li><a href="home.php" class="abc">Home</a></li>
                         <li><a href="history.php">History</a></li>
                         <li><a href="travel.php">Travel</a></li>
                         <li><a href="tickets.php">Tickets</a></li>
@@ -66,18 +64,18 @@
                
                 <div class="row">
                     <div class="col">
-                        <h2 > Welcome to</h2>
+                        <h2> Welcome to</h2>
                         
-                        <h1 class="text-transparent bg-gradient-to-r from-slate-300 to-slate-100 bg-clip-text h-40 "><span class="input" ></span></h1>
-                        
-                        
+                        <h1><span class="input" ></span></h1>
                         
                         
                         
                         
-                        <p style="line-height: 22px; font-family: cursive;">"Sigiriya Rock: Unveiling the Majestic Marvels of Ancient Sri Lanka, Where the Echoes of History Resonate and Nature's Splendor Ascends to the Heavens, Inviting You to a Journey of Vertical Legacy and Enchanted Serenity."</p>
+                        
+                        
+                        <p style="margin-top: 50px; line-height: 22px; font-family: cursive;">"Sigiriya Rock: Unveiling the Majestic Marvels of Ancient Sri Lanka, Where the Echoes of History Resonate and Nature's Splendor Ascends to the Heavens, Inviting You to a Journey of Vertical Legacy and Enchanted Serenity."</p>
                    
-                        <a class="explore" href="history.php"  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  > Explore </a>
+                        <a class="explore" href=""  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  >  Explore  </a>
                         
         
                     </div>
