@@ -890,7 +890,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Dinuka </h1>
+            <h1 class="name">Dinuka <br>Nanayakkara </h1>
             
         </div>
     </div>
@@ -919,7 +919,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Sineth</h1>
+            <h1 class="name">Sineth Fernando</h1>
             
         </div>
     </div>
@@ -946,7 +946,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Nemal</h1>
+            <h1 class="name">Nemal Fernando</h1>
             
         </div>
     </div>
@@ -973,7 +973,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Hashen</h1>
+            <h1 class="name">Hashen Fernando</h1>
             
         </div>
     </div>
@@ -1000,7 +1000,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Rusith</h1>
+            <h1 class="name">Rusith Tharindu</h1>
             
         </div>
     </div>
@@ -1027,7 +1027,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Heshan</h1>
+            <h1 class="name">Heshan Randima</h1>
             
         </div>
     </div>
@@ -1054,7 +1054,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Naveen</h1>
+            <h1 class="name">Naveen Pasindu</h1>
             
         </div>
     </div>
@@ -1081,7 +1081,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Chanaka</h1>
+            <h1 class="name">Chanaka Eshan</h1>
             
         </div>
     </div>
@@ -1108,7 +1108,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Imal</h1>
+            <h1 class="name">Imal Asanga</h1>
             
         </div>
     </div>
@@ -1135,7 +1135,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Yomasha</h1>
+            <h1 class="name">Yomasha Jayalath</h1>
             
         </div>
     </div>
