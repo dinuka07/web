@@ -31,7 +31,7 @@
     }
 
     a:hover {
-    color: orange;
+    color: rgba(5, 32, 115, 100);
     
     
     
