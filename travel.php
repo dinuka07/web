@@ -416,6 +416,21 @@
 
     /*Travel css end*/
 
+    .footer-container {
+        font-family: "poppins" ;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #000;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 1px;
+        
+        
+    }
+
 </style>
 
 
@@ -570,7 +585,9 @@
 <!--Travel end-->
 
 
-
+<?php
+   include 'footer.php';
+?>
 
 
 

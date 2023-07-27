@@ -838,6 +838,21 @@
 /*nsbm section End*/
 
 
+.footer-container {
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #000;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    margin-top: -50px;
+    
+    
+}
+
 
 </style>
 
@@ -890,7 +905,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Dinuka </h1>
+            <h1 class="name">Dinuka Nanayakkara</h1>
             
         </div>
     </div>
@@ -899,8 +914,8 @@
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/dinuka07"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="> <div class="inster"></div></a>
+                <a href="https://web.facebook.com/dinuka.nanayakkara.5"> <div class="linkedin"></div></a>
                 
                 
             </div>
@@ -919,7 +934,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Sineth</h1>
+            <h1 class="name">Sineth Fernando</h1>
             
         </div>
     </div>
@@ -928,8 +943,8 @@
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://instagram.com/_sine.th_?igshid=ZDc4ODBmNjlmNQ=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/sineth-fernando-54208327a"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -946,7 +961,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Nemal</h1>
+            <h1 class="name">Nemal Fernando</h1>
             
         </div>
     </div>
@@ -973,7 +988,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Hashen</h1>
+            <h1 class="name">Hashen Fernando</h1>
             
         </div>
     </div>
@@ -981,9 +996,9 @@
          <div class="bio-4">
             <h1 class="job">UI / UX DESIGNER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/hash-2002"> <div class="github" ></div></a>
+                <a href="https://instagram.com/_hashen.fdo_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/hashen-fernando-21506a253"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1027,7 +1042,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Heshan</h1>
+            <h1 class="name">Heshan Randima</h1>
             
         </div>
     </div>
@@ -1054,7 +1069,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Naveen</h1>
+            <h1 class="name">Naveen Pasindu</h1>
             
         </div>
     </div>
@@ -1081,7 +1096,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Chanaka</h1>
+            <h1 class="name">Chanaka Eshan</h1>
             
         </div>
     </div>
@@ -1108,7 +1123,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Imal</h1>
+            <h1 class="name">Imal Asanga</h1>
             
         </div>
     </div>
@@ -1135,7 +1150,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Yomasha</h1>
+            <h1 class="name">Yomasha Jayalath</h1>
             
         </div>
     </div>
@@ -1225,6 +1240,10 @@
     
 
 <!--Nsbm section End-->
+
+<?php
+   include 'footer.php';
+?>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

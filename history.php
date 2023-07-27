@@ -621,7 +621,9 @@ header h1{
 
 
 
-
+    <?php
+   include 'footer.php';
+    ?>
 
 
 
