@@ -61,8 +61,8 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
+        opacity:60%;
+        animation:   bigText 6s  ;
         
 
     }
@@ -94,7 +94,7 @@
             z-index: -1;
             font-size: 7rem;
             color: #fff;
-            letter-spacing: 10px;
+            letter-spacing: 1px;
             overflow: hidden;
             animation: Text 6s infinite ;
             
@@ -137,7 +137,7 @@
                 opacity: 80%;
             }
             100% {
-                opacity:40%;
+                opacity:60%;
             }
         }
         @keyframes Text {

@@ -31,7 +31,7 @@
             <div>
             <header data-aos="fade-down" data-aos-delay="70">
                 <div class="navbar">
-                    <div class="logo"><a href="">SIGIRIYA</a></div>
+                <div class="logo"><a href="home.php"><img src="pic/Logo.png" alt=""></a></div>
         
                     <ul class="links">
                         <li><a href="home.php" class="abc">Home</a></li>

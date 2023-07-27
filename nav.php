@@ -57,9 +57,20 @@
     justify-content: space-between;
     }
 
-    .navbar .logo a {
-    font-size:1.5rem ;
-    font-weight: bold;
+    .navbar .logo {
+        
+        height: 70px;
+        width: 110px;
+
+    }
+
+    
+
+    .navbar .logo a img {
+        
+        width: 70px;
+        height: 100%;
+
     }
 
     .navbar .links {
@@ -177,7 +188,7 @@
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
-                <div class="logo"><a href="home.php">SIGIRIYA</a></div>
+                <div class="logo"><a href="home.php"><img src="pic/Logo.png" alt=""></a></div>
                 
                 <ul class="links">
                     <li><a href="home.php">Home</a></li>
