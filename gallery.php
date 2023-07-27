@@ -371,6 +371,20 @@
         }
 
     /*Big text End*/
+    .footer-container {
+        font-family: "poppins" ;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #000;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 100px;
+        
+        
+    }
 
 </style>
 
@@ -413,7 +427,9 @@
 </div>
 
 
-
+<?php
+   include 'footer.php';
+?>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
