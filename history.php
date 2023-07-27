@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="history.css" />
     <link rel="stylesheet" href="history.js" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     
 
 <style>
@@ -521,8 +523,8 @@ header h1{
     <ul class="timeline">
       <!-- Item 1 -->
       <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
+        <div class="direction-r" data-aos="fade-left">
+          <div class="flag-wrapper" >
             <span class="hexa"></span>
             <span class="flag"> Construction begins</span><br><br>
             <span class="time-wrapper"><span class="time">1st century AD</span></span>
@@ -536,7 +538,7 @@ header h1{
     
       <!-- Item 2 -->
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Reign of King Kashyapa I</span><br><br>
@@ -550,7 +552,7 @@ header h1{
     
       <!-- Item 3 -->
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">The Lion Gate and Frescoes</span>
@@ -564,7 +566,7 @@ header h1{
       </li>
 
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Death of King Kashyapa I</span><br><br>
@@ -577,7 +579,7 @@ header h1{
       </li>
 
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Monastic period</span><br><br>
@@ -590,7 +592,7 @@ header h1{
       </li>
 
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag"> Rediscovery</span><br><br>
@@ -603,7 +605,7 @@ header h1{
       </li>
 
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Restoration and Conservation</span><br><br>
@@ -631,5 +633,10 @@ header h1{
   <script>
     AOS.init();
   </script>  
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
