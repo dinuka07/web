@@ -31,7 +31,7 @@
     }
 
     a:hover {
-    color: orange;
+    color: rgba(5, 32, 115, 100);
     
     
     
@@ -42,13 +42,14 @@
     padding: 0 2rem;
     backdrop-filter: blur(15px);
     
+    
 
     
     }
 
     .navbar {
     width: 100%;
-    height: 60px;
+    height: 80px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -176,7 +177,7 @@
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
-                <div class="logo"><a href="">SIGIRIYA</a></div>
+                <div class="logo"><a href="home.php">SIGIRIYA</a></div>
                 
                 <ul class="links">
                     <li><a href="home.php">Home</a></li>
@@ -186,7 +187,7 @@
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="feedback.php">Feedback</a></li>
                 </ul>
-                <a href="about.php" class="action_btn">About us</a>
+                <a href="contact.php" class="action_btn">Contact us</a>
                 <div class="toggle_btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -200,7 +201,7 @@
                     <li><a href="tickets.php">Tickets</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="feedback.php">Feedback</a></li>
-                    <li><a href="about.php" class="action_btn">About us</a></li>
+                    <li><a href="contact.php" class="action_btn">Contact us</a></li>
             </div>
             </header>
 

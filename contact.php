@@ -853,7 +853,7 @@
   
   <div class="big-text-container">
     <div class="big-text">
-        <h1>About</h1>
+        <h1>Contact</h1>
     </div>
   </div>
 
