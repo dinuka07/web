@@ -447,6 +447,7 @@
   <div class="big-text-container">
     <div class="big-text">
         <h1>Travel</h1>
+        
     </div>
   </div>
 
