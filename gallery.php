@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galle</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/gallery.css">
 <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
@@ -48,39 +47,7 @@
         padding: -30px;
     }
 
-    .gallery-hero .item-1,
-    .gallery-hero .item-2,
-    .gallery-hero .item-3,
-    .gallery-hero .item-4,
-    .gallery-hero .item-5,
-    .gallery-hero .item-6,
-    .gallery-hero .item-7,
-    .gallery-hero .item-8,
-    .gallery-hero .item-9,
-    .gallery-hero .item-10,
-    .gallery-hero .item-11,
-    .gallery-hero .item-12
-    {
-        border: 0;
-        width: 300px;
-        height: 200px;
-        margin: 7px;
-        opacity: 70%;
-        transition: .4s;
-    }
-
-    .gallery-hero .item-1:hover,
-    .gallery-hero .item-2:hover,
-    .gallery-hero .item-3:hover,
-    .gallery-hero .item-4:hover,
-    .gallery-hero .item-5:hover,
-    .gallery-hero .item-6:hover,
-    .gallery-hero .item-7:hover,
-    .gallery-hero .item-8:hover,
-    .gallery-hero .item-9:hover,
-    .gallery-hero .item-10:hover,
-    .gallery-hero .item-11:hover,
-    .gallery-hero .item-12:hover{
+    .gallery-hero .item-:hover{
         cursor: pointer;
         transform: scale(1.2);
         transition: .4s;
@@ -90,89 +57,174 @@
         z-index: 3;
     }
 
-    .gallery-hero .item-1{
+    .gallery-hero:hover .item{
+        opacity: .5;
+        filter: blur(3px);
+    }
+
+    .gallery-hero .item:hover{
+        opacity: 2;
+        filter: blur(0px);
+        transform: scale(1.1);
+        border-radius: 10px;
+           
+    }
+
+    .gallery-hero .item1{
         background: url("pic/gallery/image 1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-2{
+    .gallery-hero .item2{
         background: url("pic/gallery/image 2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-3{
+    .gallery-hero .item3{
         background: url("pic/gallery/image 3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-4{
+    .gallery-hero .item4{
         background: url("pic/gallery/image 4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-5{
+    .gallery-hero .item5{
         background: url("pic/gallery/image 5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-6{
+    .gallery-hero .item6{
         background: url("pic/gallery/image 6.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-7{
+    .gallery-hero .item7{
         background: url("pic/gallery/image 7.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-8{
+    .gallery-hero .item8{
         background: url("pic/gallery/image 8.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
 
-    .gallery-hero .item-9{
+    .gallery-hero .item9{
         background: url("pic/gallery/image 9.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-10{
+    .gallery-hero .item10{
         background: url("pic/gallery/image 10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-11{
+    .gallery-hero .item11{
         background: url("pic/gallery/image 11.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
-    .gallery-hero .item-12{
+    .gallery-hero .item12{
         background: url("pic/gallery/image 12.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
+        border: 0;
+        width: 300px;
+        height: 200px;
+        margin: 7px;
+        opacity: 70%;
+        transition: .4s;
     }
 
 
@@ -344,18 +396,18 @@
     <div class="gallery-top"></div>
     <div class="gallery-container">
         <div class="gallery-hero">
-            <div class="item-1"></div>
-            <div class="item-2"></div>
-            <div class="item-3"></div>
-            <div class="item-4"></div>
-            <div class="item-5"></div>
-            <div class="item-6"></div>
-            <div class="item-7"></div>
-            <div class="item-8"></div>
-            <div class="item-9"></div>
-            <div class="item-10"></div>
-            <div class="item-11"></div>
-            <div class="item-12"></div>
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+            <div class="item item6"></div>
+            <div class="item item7"></div>
+            <div class="item item8"></div>
+            <div class="item item9"></div>
+            <div class="item item10"></div>
+            <div class="item item11"></div>
+            <div class="item item12"></div>
         </div>
     </div>
 </div>
