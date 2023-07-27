@@ -1023,9 +1023,9 @@
          <div class="bio-5">
             <h1 class="job">UI / UX DESIGNER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/RusithTharindu"> <div class="github" ></div></a>
+                <a href="https://instagram.com/ruziya66_?igshid=MzNlNGNkZWQ4Mg=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/rusith-tharindu-9ab16316b"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1050,9 +1050,9 @@
          <div class="bio-6">
             <h1 class="job">Testing / QA</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/HeshanSHR"> <div class="github" ></div></a>
+                <a href="https://instagram.com/h_e___s_h_a_n_?igshid=MzNlNGNkZWQ4Mg=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/heshan-randima-5870b8261"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1077,9 +1077,9 @@
          <div class="bio-7">
             <h1 class="job">Testing / QA</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/naveensenevirathna"> <div class="github" ></div></a>
+                <a href="https://instagram.com/naveen_senevirathna?igshid=NTc4MTIwNjQ2YQ=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/naveen-senevirathna-b626a025b"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
