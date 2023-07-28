@@ -919,7 +919,7 @@
             <div class="link">
                 <a href="https://github.com/dinuka07"> <div class="github" ></div></a>
                 <a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="> <div class="inster"></div></a>
-                <a href="https://web.facebook.com/dinuka.nanayakkara.5"> <div class="linkedin"></div></a>
+                <a href="https://www.linkedin.com/in/dinuka-nanayakkara-a06518249"> <div class="linkedin"></div></a>
                 
                 
             </div>
