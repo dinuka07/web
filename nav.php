@@ -186,7 +186,7 @@
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
-                <div class="logo"><a href="index.php"><img src="pic/Logo.png" alt=""></a></div>
+                <div class="logo"><a href="index.php"><img src="Logo.png" alt=""></a></div>
                 
                 <ul class="links">
                     <li><a href="index.php">Home</a></li>

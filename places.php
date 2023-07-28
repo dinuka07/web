@@ -290,7 +290,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("pic/dambulla.jpg");
+    background: url("dambulla.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius:8px ;
@@ -298,19 +298,19 @@
 }
 
 .p-img-main2 {
-    background: url("pic/pidurangala.jpg");
+    background: url("pidurangala.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .p-img-main3 {
-    background: url("pic/mihinthale.jpg");
+    background: url("mihinthale.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .p-img-main4 {
-    background: url("pic/minneriya.jpeg");
+    background: url("minneriya.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 

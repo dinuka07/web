@@ -41,7 +41,7 @@
         
         width: 200px;
         height: 200px;
-        background: url("pic/Logo.png");
+        background: url("Logo.png");
         background-size:100% 100% ;
         
     }
