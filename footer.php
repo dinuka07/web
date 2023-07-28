@@ -288,7 +288,7 @@
                         <a href="home.php">Home</a>
                         <a href="history.php">History</a>
                         <a href="travel.php">Travel</a>
-                        <a href="tickets.php">Tickets</a>
+                        <a href="places.php">Places</a>
                         <a href="gallery.php">Gallery</a>
                         <a href="feedback.php">Feedback</a>
                         <a href="contact.php">Contact us</a>

@@ -194,7 +194,7 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="history.php">History</a></li>
                     <li><a href="travel.php">Travel</a></li>
-                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="places.php">Places</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="feedback.php">Feedback</a></li>
                 </ul>
@@ -209,7 +209,7 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="history.php">History</a></li>
                     <li><a href="travel.php">Travel</a></li>
-                    <li><a href="tickets.php">Tickets</a></li>
+                    <li><a href="places.php">Places</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="feedback.php">Feedback</a></li>
                     <li><a href="contact.php" class="action_btn">Contact us</a></li>
