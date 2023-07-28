@@ -188,6 +188,21 @@
         
     }
 
+    .comment-container {
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#9198e5, #000);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size:cover ;
+    overflow: hidden;
+   
+    
+}
+
 </style>
 
 </head>
