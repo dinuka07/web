@@ -974,8 +974,8 @@
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/NemalFdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://instagram.com/_nemal_fdo_?igshid=OGQ5ZDc2ODk2ZA=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/nemal-fernando-6931761b2/"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1108,9 +1108,9 @@
          <div class="bio-8">
             <h1 class="job">Testing / QA</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/chanakaeshan"> <div class="github" ></div></a>
+                <a href="https://www.instagram.com/chanakaeshan/"> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/chanaka-eshan/"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1135,9 +1135,9 @@
          <div class="bio-9">
             <h1 class="job">RESEARCHER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
+                <a href="https://github.com/mgiasanga"> <div class="github" ></div></a>
                 <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://www.linkedin.com/in/imal-asanga-27ab50257"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1162,9 +1162,9 @@
          <div class="bio-10">
             <h1 class="job">RESEARCHER </h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/gayjayalath"> <div class="github" ></div></a>
+                <a href="https://instagram.com/yomasha_?igshid=MjEwN2IyYWYwYw=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/amindi-jayalath-156029258"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>

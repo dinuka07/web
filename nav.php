@@ -170,16 +170,14 @@
     }
     }
 
-        
-
-
+   
     .dropdown_menu.open 
     {
      height: 330px;
      background: #000;
      z-index:100;
      
- 
+     
     }
 </style>
 </head>
@@ -188,7 +186,7 @@
 
         <header data-aos="fade-down" data-aos-delay="70">
             <div class="navbar">
-                <div class="logo"><a href="home.php"><img src="pic/Logo.png" alt=""></a></div>
+                <div class="logo"><a href="index.php"><img src="pic/Logo.png" alt=""></a></div>
                 
                 <ul class="links">
                     <li><a href="index.php">Home</a></li>
@@ -205,7 +203,7 @@
             </div>
             
             <div class="dropdown_menu">
-               
+                
                     <li><a href="index.php">Home</a></li>
                     <li><a href="history.php">History</a></li>
                     <li><a href="travel.php">Travel</a></li>
