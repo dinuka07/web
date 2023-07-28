@@ -352,14 +352,14 @@
     .pic-1
     {
         
-        background: url("pic/dinuka.jpg");
+        background: url("dinuka.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pic-2
     {
         
-        background: url("pic/sineth2.jpg");
+        background: url("sineth2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
        
@@ -367,28 +367,28 @@
     .pic-3
     {
         
-        background: url("pic/nemal1.jpg");
+        background: url("nemal1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pic-4
     {
         
-        background: url("pic/hashen.jpg");
+        background: url("hashen.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pic-5
     {
         
-        background: url("pic/rusith.jpg");
+        background: url("rusith.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pic-6
     {
         
-        background: url("pic/heshan2.jpg");
+        background: url("heshan2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
        
@@ -396,7 +396,7 @@
     .pic-7
     {
         
-        background: url("pic/naveen1.jpg");
+        background: url("naveen1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: 20%;
@@ -404,14 +404,14 @@
     .pic-8
     {
         
-        background: url("pic/chanaka1.jpg");
+        background: url("chanaka1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pic-9
     {
         
-        background: url("pic/imal1.jpg");
+        background: url("imal1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -421,7 +421,7 @@
     .pic-10
     {
         
-        background: url("pic/yomasha.jpg");
+        background: url("yomasha.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -494,7 +494,7 @@
     /* each photos back*/
     .bio-1
     {
-        background: url("pic/dinuka.jpg");
+        background: url("dinuka.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x:27% ;
@@ -503,7 +503,7 @@
     }
     .bio-2
     {
-        background: url("pic/sineth2.jpg");
+        background: url("sineth2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x:50% ;
@@ -512,7 +512,7 @@
     }
     .bio-3
     {
-        background: url("pic/nemal1.jpg");
+        background: url("nemal1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 40%;
@@ -520,7 +520,7 @@
     }
     .bio-4
     {
-        background: url("pic/hashen.jpg");
+        background: url("hashen.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 10%;
@@ -529,7 +529,7 @@
     }
     .bio-5
     {
-        background: url("pic/rusith.jpg");
+        background: url("rusith.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: 40%;
@@ -538,7 +538,7 @@
     }
     .bio-6
     {
-        background: url("pic/heshan2.jpg");
+        background: url("heshan2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 20%;
@@ -547,7 +547,7 @@
     }
     .bio-7
     {
-        background: url("pic/naveen1.jpg");
+        background: url("naveen1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 25%;
@@ -556,7 +556,7 @@
     }
     .bio-8
     {
-        background: url("pic/chanaka1.jpg");
+        background: url("chanaka1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 20%;
@@ -565,7 +565,7 @@
     }
     .bio-9
     {
-        background: url("pic/imal1.jpg");
+        background: url("imal1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 30%;
@@ -574,7 +574,7 @@
     }
     .bio-10
     {
-        background: url("pic/yomasha.jpg");
+        background: url("yomasha.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: 40%;
@@ -675,7 +675,7 @@
         
         margin-top: 50px;
         margin-bottom: 50px;
-        background: url("pic/Picture1.png");
+        background: url("Picture1.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

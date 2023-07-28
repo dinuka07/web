@@ -72,7 +72,7 @@
     }
 
     .gallery-hero .item1{
-        background: url("pic/gallery/image 1.jpg");
+        background: url("image 1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -85,7 +85,7 @@
     }
 
     .gallery-hero .item2{
-        background: url("pic/gallery/image 2.jpg");
+        background: url("image 2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -98,7 +98,7 @@
     }
 
     .gallery-hero .item3{
-        background: url("pic/gallery/image 3.jpg");
+        background: url("image 3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -111,7 +111,7 @@
     }
 
     .gallery-hero .item4{
-        background: url("pic/gallery/image 4.jpg");
+        background: url("image 4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -124,7 +124,7 @@
     }
 
     .gallery-hero .item5{
-        background: url("pic/gallery/image 5.jpg");
+        background: url("image 5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -137,7 +137,7 @@
     }
 
     .gallery-hero .item6{
-        background: url("pic/gallery/image 6.jpg");
+        background: url("image 6.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -150,7 +150,7 @@
     }
 
     .gallery-hero .item7{
-        background: url("pic/gallery/image 7.jpg");
+        background: url("image 7.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -163,7 +163,7 @@
     }
 
     .gallery-hero .item8{
-        background: url("pic/gallery/image 8.jpg");
+        background: url("image 8.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -177,7 +177,7 @@
 
 
     .gallery-hero .item9{
-        background: url("pic/gallery/image 9.jpg");
+        background: url("image 9.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -190,7 +190,7 @@
     }
 
     .gallery-hero .item10{
-        background: url("pic/gallery/image 10.jpg");
+        background: url("image 10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -203,7 +203,7 @@
     }
 
     .gallery-hero .item11{
-        background: url("pic/gallery/image 11.jpg");
+        background: url("image 11.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
@@ -216,7 +216,7 @@
     }
 
     .gallery-hero .item12{
-        background: url("pic/gallery/image 12.jpg");
+        background: url("image 12.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 32%;
