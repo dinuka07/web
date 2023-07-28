@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="travel.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
-
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
 
     * {
@@ -42,8 +42,8 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
+        opacity:60%;
+        animation:   bigText 6s  ;
         
 
     }
@@ -71,11 +71,12 @@
     
         }
         .big-text > h1 {
+            font-family: "cabin";
             position: relative;
             z-index: -1;
             font-size: 7rem;
             color: #fff;
-            letter-spacing: 10px;
+            letter-spacing: 1px;
             overflow: hidden;
             animation: Text 6s infinite ;
             
@@ -120,7 +121,7 @@
                 opacity: 80%;
             }
             100% {
-                opacity:40%;
+                opacity:60%;
             }
         }
         @keyframes Text {
@@ -416,6 +417,21 @@
 
     /*Travel css end*/
 
+    .footer-container {
+        font-family: "poppins" ;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #000;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 1px;
+        
+        
+    }
+
 </style>
 
 
@@ -432,6 +448,7 @@
   <div class="big-text-container">
     <div class="big-text">
         <h1>Travel</h1>
+        
     </div>
   </div>
 
@@ -570,7 +587,9 @@
 <!--Travel end-->
 
 
-
+<?php
+   include 'footer.php';
+?>
 
 
 

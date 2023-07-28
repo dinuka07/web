@@ -51,10 +51,21 @@
     justify-content: space-between;
   }
   
-  .navbar .logo a {
-    font-size:1.5rem ;
-    font-weight: bold;
-  }
+  .navbar .logo {
+    
+    height: 70px;
+    width: 110px;
+
+}
+
+
+
+.navbar .logo a img {
+    
+    width: 70px;
+    height: 100%;
+
+}
   
   .navbar .links {
     display: flex;

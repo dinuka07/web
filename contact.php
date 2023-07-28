@@ -11,6 +11,7 @@
 
     
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
 
     * {
@@ -43,8 +44,8 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
+        opacity:60%;
+        animation:   bigText 6s ;
         
 
     }
@@ -72,11 +73,12 @@
        
         }
         .big-text > h1 {
+            font-family: "cabin";
             position: relative;
             z-index: -1;
             font-size: 7rem;
             color: #fff;
-            letter-spacing: 10px;
+            letter-spacing: 1px;
             overflow: hidden;
             animation: Text 6s infinite ;
             
@@ -119,7 +121,7 @@
                 opacity: 80%;
             }
             100% {
-                opacity:40%;
+                opacity:60%;
             }
         }
         @keyframes Text {
@@ -378,7 +380,7 @@
     .pic-5
     {
         
-        background: url("data:image/jpeg;base64,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");
+        background: url("pic/rusith.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -526,9 +528,10 @@
     }
     .bio-5
     {
-        background: url("https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg");
+        background: url("pic/rusith.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-y: 40%;
 
 
     }
@@ -838,6 +841,21 @@
 /*nsbm section End*/
 
 
+.footer-container {
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #000;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    margin-top: -50px;
+    
+    
+}
+
 
 </style>
 
@@ -890,7 +908,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Dinuka </h1>
+            <h1 class="name">Dinuka Nanayakkara</h1>
             
         </div>
     </div>
@@ -899,8 +917,8 @@
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/dinuka07"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="> <div class="inster"></div></a>
+                <a href="https://web.facebook.com/dinuka.nanayakkara.5"> <div class="linkedin"></div></a>
                 
                 
             </div>
@@ -919,7 +937,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Sineth</h1>
+            <h1 class="name">Sineth Fernando</h1>
             
         </div>
     </div>
@@ -928,8 +946,8 @@
             <h1 class="job">DEVELOPER</h1>
             <div class="link">
                 <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://instagram.com/_sine.th_?igshid=ZDc4ODBmNjlmNQ=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/sineth-fernando-54208327a"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -946,7 +964,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Nemal</h1>
+            <h1 class="name">Nemal Fernando</h1>
             
         </div>
     </div>
@@ -973,7 +991,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Hashen</h1>
+            <h1 class="name">Hashen Fernando</h1>
             
         </div>
     </div>
@@ -981,9 +999,9 @@
          <div class="bio-4">
             <h1 class="job">UI / UX DESIGNER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/hash-2002"> <div class="github" ></div></a>
+                <a href="https://instagram.com/_hashen.fdo_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/hashen-fernando-21506a253"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1000,7 +1018,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Rusith</h1>
+            <h1 class="name">Rusith Tharindu</h1>
             
         </div>
     </div>
@@ -1008,9 +1026,9 @@
          <div class="bio-5">
             <h1 class="job">UI / UX DESIGNER</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/RusithTharindu"> <div class="github" ></div></a>
+                <a href="https://instagram.com/ruziya66_?igshid=MzNlNGNkZWQ4Mg=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/rusith-tharindu-9ab16316b"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1027,7 +1045,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Heshan</h1>
+            <h1 class="name">Heshan Randima</h1>
             
         </div>
     </div>
@@ -1035,9 +1053,9 @@
          <div class="bio-6">
             <h1 class="job">Testing / QA</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/HeshanSHR"> <div class="github" ></div></a>
+                <a href="https://instagram.com/h_e___s_h_a_n_?igshid=MzNlNGNkZWQ4Mg=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/heshan-randima-5870b8261"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1054,7 +1072,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Naveen</h1>
+            <h1 class="name">Naveen Pasindu</h1>
             
         </div>
     </div>
@@ -1062,9 +1080,9 @@
          <div class="bio-7">
             <h1 class="job">Testing / QA</h1>
             <div class="link">
-                <a href="https://github.com/sineth-Fdo"> <div class="github" ></div></a>
-                <a href=""> <div class="inster"></div></a>
-                <a href=""> <div class="linkedin"></div></a>
+                <a href="https://github.com/naveensenevirathna"> <div class="github" ></div></a>
+                <a href="https://instagram.com/naveen_senevirathna?igshid=NTc4MTIwNjQ2YQ=="> <div class="inster"></div></a>
+                <a href="https://www.linkedin.com/in/naveen-senevirathna-b626a025b"> <div class="linkedin"></div></a>
             </div>
          </div>
     </div>
@@ -1081,7 +1099,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Chanaka</h1>
+            <h1 class="name">Chanaka Eshan</h1>
             
         </div>
     </div>
@@ -1108,7 +1126,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Imal</h1>
+            <h1 class="name">Imal Asanga</h1>
             
         </div>
     </div>
@@ -1135,7 +1153,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Yomasha</h1>
+            <h1 class="name">Yomasha Jayalath</h1>
             
         </div>
     </div>
@@ -1225,6 +1243,10 @@
     
 
 <!--Nsbm section End-->
+
+<?php
+   include 'footer.php';
+?>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="history.css" />
     <link rel="stylesheet" href="history.js" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     
 
 <style>
-
+      @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
 
     * {
@@ -44,8 +46,8 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
+        opacity:60%;
+        animation:   bigText 6s ;
         
 
     }
@@ -73,12 +75,12 @@
     
         }
         .big-text > h1 {
-            
+          font-family: "cabin";
             position: relative;
             z-index: -1;
             font-size: 7rem;
             color: #fff;
-            letter-spacing: 10px;
+            letter-spacing: 1px;
             overflow: hidden;
             animation: Text 6s infinite ;
             
@@ -121,7 +123,7 @@
                 opacity: 80%;
             }
             100% {
-                opacity:40%;
+              opacity:60%;
             }
         }
         @keyframes Text {
@@ -533,8 +535,8 @@ body{
     <ul class="timeline">
       <!-- Item 1 -->
       <li>
-        <div class="direction-r ">
-          <div class="flag-wrapper ">
+        <div class="direction-r">
+          <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag"> Construction begins</span><br><br>
             <span class="time-wrapper"><span class="time">1st century AD</span></span>
@@ -548,7 +550,7 @@ body{
     
       <!-- Item 2 -->
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Reign of King Kashyapa I</span><br><br>
@@ -562,7 +564,7 @@ body{
     
       <!-- Item 3 -->
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">The Lion Gate and Frescoes</span>
@@ -576,7 +578,7 @@ body{
       </li>
 
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Death of King Kashyapa I</span><br><br>
@@ -589,7 +591,7 @@ body{
       </li>
 
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Monastic period</span><br><br>
@@ -602,7 +604,7 @@ body{
       </li>
 
       <li>
-        <div class="direction-l">
+        <div class="direction-l" data-aos="fade-right">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag"> Rediscovery</span><br><br>
@@ -615,7 +617,7 @@ body{
       </li>
 
       <li>
-        <div class="direction-r">
+        <div class="direction-r" data-aos="fade-left">
           <div class="flag-wrapper">
             <span class="hexa"></span>
             <span class="flag">Restoration and Conservation</span><br><br>
@@ -633,7 +635,9 @@ body{
 
 
 
-
+    <?php
+   include 'footer.php';
+    ?>
 
 
 
@@ -641,5 +645,10 @@ body{
   <script>
     AOS.init();
   </script>  
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

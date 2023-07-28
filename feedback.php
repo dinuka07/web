@@ -61,8 +61,8 @@
         background-color: #000;
         position: absolute;
         z-index: -1;
-        opacity:40%;
-        animation:   bigText 6s  infinite;
+        opacity:60%;
+        animation:   bigText 6s  ;
         
 
     }
@@ -94,7 +94,7 @@
             z-index: -1;
             font-size: 7rem;
             color: #fff;
-            letter-spacing: 10px;
+            letter-spacing: 1px;
             overflow: hidden;
             animation: Text 6s infinite ;
             
@@ -137,7 +137,7 @@
                 opacity: 80%;
             }
             100% {
-                opacity:40%;
+                opacity:60%;
             }
         }
         @keyframes Text {
@@ -172,6 +172,21 @@
         }
 
     /*Big text End*/
+    
+    .footer-container {
+        font-family: "poppins" ;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #000;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 60px;
+        
+        
+    }
 
 </style>
 
@@ -238,7 +253,9 @@ if ($result->num_rows > 0) {
 <!--comment  end-->
 
 
-
+<?php
+   include 'footer.php';
+?>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
