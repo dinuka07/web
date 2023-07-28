@@ -470,7 +470,7 @@
                         </h4>
                 </div>
                 <div class="view-btn">
-                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-bus/"><button>View More</button></a>
+                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-bus/" target="_blank"><button>View More</button></a>
                 </div>
             </div>
 
@@ -492,7 +492,7 @@
                     </h4>
                 </div>
                 <div class="view-btn">
-                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-train/"><button>View More</button></a>
+                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-train/" target="_blank"><button>View More</button></a>
                 </div>
             </div>
 
@@ -516,7 +516,7 @@
                     </h4>
                 </div>
                 <div class="view-btn">
-                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-car/"><button>View More</button></a>
+                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-car/" target="_blank"><button>View More</button></a>
                 </div>
             </div>
 
@@ -537,7 +537,7 @@
                     </h4>
                 </div>
                 <div class="view-btn">
-                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-tuk-tuk/"><button>View More</button></a>
+                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-tuk-tuk/" target="_blank"><button>View More</button></a>
                 </div>
             </div>
 
@@ -559,7 +559,7 @@
                       </h4>
                 </div>
                 <div class="view-btn">
-                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-flight/"><button>View More</button></a>
+                    <a href="https://sigiriyafortress.com/travel-sigiriya-by-flight/" target="_blank"><button>View More</button></a>
                 </div>
             </div>
 

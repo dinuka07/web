@@ -353,15 +353,27 @@ header h1{
   position: relative;
   margin: 1em 0 0 0;
   padding: 1em;
-  background: rgb(254,254,254);
+  background: #272727;
+  
+  
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-  box-shadow: 0 0 1px gray;
+  box-shadow: 0 0 20px black;
   z-index: 15;
+  text-align:center;
+  border-radius:3px;
   
   
   
   
+}
+body{
+  background-image : url("imageedit_1_4553149047.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  
+
 }
 
 .direction-l .desc,
@@ -513,21 +525,21 @@ header h1{
 <header>
     
         <br><br>
-        <h1>A Creative Timeline of the Enchanting Lion Rock</h1>
+        <h1 style="font-size:50px;">A Creative Timeline of the Enchanting Lion Rock</h1>
         <br>
-        <p style="font-size:30px;"> "Sigiriya: A Stairway Through Time" </p>
+        <p style="font-size:40px;font-family:cursive;"> "Sigiriya: A Stairway Through Time" </p>
     </header>
     
     <ul class="timeline">
       <!-- Item 1 -->
       <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
+        <div class="direction-r ">
+          <div class="flag-wrapper ">
             <span class="hexa"></span>
             <span class="flag"> Construction begins</span><br><br>
             <span class="time-wrapper"><span class="time">1st century AD</span></span>
           </div>
-          <div class="desc" > King Kashyapa I, a ruler of Sri Lanka, decides to build his palace atop the massive rock outcrop of Sigiriya. Construction starts around this time, and it is believed that it took several years to complete the fortress and surrounding gardens.
+          <div class="desc" style="font-family:cursive;color:white;" > King Kashyapa I, a ruler of Sri Lanka, decides to build his palace atop the massive rock outcrop of Sigiriya. Construction starts around this time, and it is believed that it took several years to complete the fortress and surrounding gardens.
             
           <br><br> <img style="height: 300px;  width: 330px; border-radius: 5px; " src="https://miro.medium.com/v2/resize:fit:538/0*p0FAVnzBTHQCHAhC" alt="">
           </div>
@@ -542,7 +554,7 @@ header h1{
             <span class="flag">Reign of King Kashyapa I</span><br><br>
             <span class="time-wrapper"><span class="time">477-495 AD</span></span>
           </div>
-          <div class="desc"> The construction of Sigiriya reaches its peak during the reign of King Kashyapa I. He relocates the capital from Anuradhapura to Sigiriya and builds his royal residence on the summit of the rock.
+          <div class="desc" style="font-family:cursive;color:white;"> The construction of Sigiriya reaches its peak during the reign of King Kashyapa I. He relocates the capital from Anuradhapura to Sigiriya and builds his royal residence on the summit of the rock.
           <br><br><img style="height: 300px;  width: 330px; border-radius: 5px;" src="Lion-Rock-459x400.jpg" alt="">
           </div>
         </div>
@@ -557,7 +569,7 @@ header h1{
             <br><br>
             <span class="time-wrapper"><span class="time">5th-century AD</span></span>
           </div>
-          <div class="desc">During the construction of Sigiriya, a massive stone lion statue is carved at the entrance of the palace on the summit. The walls of the rock are also adorned with colorful frescoes of beautiful women, some of which still survive today.
+          <div class="desc"  style="font-family:cursive;color:white;">During the construction of Sigiriya, a massive stone lion statue is carved at the entrance of the palace on the summit. The walls of the rock are also adorned with colorful frescoes of beautiful women, some of which still survive today.
           <br><br><img style="height: 300px;  width: 330px; border-radius: 5px;" src="3c472715900783.562986b3d5fc1.jpg" alt="">
           </div>
         </div>
@@ -570,7 +582,7 @@ header h1{
             <span class="flag">Death of King Kashyapa I</span><br><br>
             <span class="time-wrapper"><span class="time">Late 5th-century AD</span></span>
           </div>
-          <div class="desc"> King Kashyapa I is defeated and killed by his half-brother, Moggallana, in a battle near Sigiriya. The capital is moved back to Anuradhapura, and Sigiriya loses its significance as a royal residence.
+          <div class="desc"  style="font-family:cursive;color:white;"> King Kashyapa I is defeated and killed by his half-brother, Moggallana, in a battle near Sigiriya. The capital is moved back to Anuradhapura, and Sigiriya loses its significance as a royal residence.
           <br><br> <img style="height: 300px;  width: 330px; border-radius: 5px;" src="CNKCr3NUAAAxcTI.jpg" alt="">
           </div>
         </div>
@@ -583,7 +595,7 @@ header h1{
             <span class="flag">Monastic period</span><br><br>
             <span class="time-wrapper"><span class="time">14th to 16th centuries</span></span>
           </div>
-          <div class="desc">After its abandonment as a royal residence, Buddhist monks inhabit Sigiriya, converting it into a monastery. They add numerous shrines, frescoes, and other religious structures to the site.
+          <div class="desc"  style="font-family:cursive;color:white;">After its abandonment as a royal residence, Buddhist monks inhabit Sigiriya, converting it into a monastery. They add numerous shrines, frescoes, and other religious structures to the site.
           <br><br> <img style="height: 300px;  width: 330px; border-radius: 5px;" src="sigiriya-old-7.jpg" alt="">
           </div>
         </div>
@@ -596,7 +608,7 @@ header h1{
             <span class="flag"> Rediscovery</span><br><br>
             <span class="time-wrapper"><span class="time">1831</span></span>
           </div>
-          <div class="desc"> The site of Sigiriya is "rediscovered" by British explorer Major Jonathan Forbes during his expedition in Sri Lanka.
+          <div class="desc"  style="font-family:cursive;color:white; "> The site of Sigiriya is "rediscovered" by British explorer Major Jonathan Forbes during his expedition in Sri Lanka.
           <br><br><img style="height: 300px;  width: 330px; border-radius: 5px;" src="General_John_Forbes_from_the_Darlington_Digital_Collection_University_of_Pittsburgh.jpg" alt="">
           </div>
         </div>
@@ -609,7 +621,7 @@ header h1{
             <span class="flag">Restoration and Conservation</span><br><br>
             <span class="time-wrapper"><span class="time">20th century</span></span>
           </div>
-          <div class="desc">The Sri Lankan government undertakes significant efforts to restore and preserve Sigiriya as an important historical and cultural site. The site is designated as a UNESCO World Heritage Site in 1982.
+          <div class="desc"  style="font-family:cursive;color:white;">The Sri Lankan government undertakes significant efforts to restore and preserve Sigiriya as an important historical and cultural site. The site is designated as a UNESCO World Heritage Site in 1982.
             <br><br><img style="height: 300px;  width: 330px; border-radius: 5px;" src="6068ffc95f0a63001da27f89.jpg" alt="">
           </div>
         </div>

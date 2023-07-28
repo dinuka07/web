@@ -75,7 +75,7 @@
                         
                         <p style="margin-top: 50px; line-height: 22px; font-family: cursive;">"Sigiriya Rock: Unveiling the Majestic Marvels of Ancient Sri Lanka, Where the Echoes of History Resonate and Nature's Splendor Ascends to the Heavens, Inviting You to a Journey of Vertical Legacy and Enchanted Serenity."</p>
                    
-                        <a class="explore" href=""  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  >  Explore  </a>
+                        <a class="explore" href="history.php"  style=" border-radius: 10px; height: 30px;box-shadow: 1px 1px 50px 0.1px black; color: rgba(6, 115, 154, 100);"  >  Explore  </a>
                         
         
                     </div>
@@ -87,12 +87,12 @@
            
             
             <div class="media-icons">
-                <a href="https://web.facebook.com/dinuka.nanayakkara.5" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/sigiriya.lanka/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 
-                <a href="https://instagram.com/dinuka_nanayakkara_?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/explore/tags/sigiriya/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             
                 
-                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter" target="_blank"></i></a>
             </div>
            
         </section>
