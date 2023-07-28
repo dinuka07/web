@@ -25,7 +25,7 @@
 
         height: 100vh;
         background: #000;
-        background-image: url('https://www.traxplorio.com/wp-content/uploads/2021/11/2021-11-08_6188cd6b8a608_Sigiriya.jpg');
+        background-image: url('team.webp');
         background-size:cover ;
         background-position: center;
         background-repeat: no-repeat;
@@ -909,7 +909,7 @@
             </div>
         </div>
         <div class="dis-main">
-            <h1 class="name">Dinuka Nanayakkara</h1>
+            <center><h1 class="name">Dinuka Nanayakkara</h1></center>
             
         </div>
     </div>
