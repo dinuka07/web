@@ -242,7 +242,7 @@
 
         height: 100vh;
         background: #000;
-        background-image: url('https://www.traxplorio.com/wp-content/uploads/2021/11/2021-11-08_6188cd6b8a608_Sigiriya.jpg');
+        background-image: url('The_Common_Wanderer_Pidurangala_-5.jpg');
         background-size:cover ;
         background-position: center;
         background-repeat: no-repeat;
