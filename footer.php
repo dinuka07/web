@@ -285,7 +285,7 @@
             
                 <div class="f-nav">
                     <div class="f-nav-items">
-                        <a href="home.php">Home</a>
+                        <a href="index.php">Home</a>
                         <a href="history.php">History</a>
                         <a href="travel.php">Travel</a>
                         <a href="places.php">Places</a>

@@ -34,7 +34,7 @@
                 <div class="logo"><a href="home.php"><img src="pic/Logo.png" alt=""></a></div>
         
                     <ul class="links">
-                        <li><a href="home.php" class="abc">Home</a></li>
+                        <li><a href="index.php" class="abc">Home</a></li>
                         <li><a href="history.php">History</a></li>
                         <li><a href="travel.php">Travel</a></li>
                         <li><a href="places.php">Places</a></li>
